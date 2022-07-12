@@ -15,6 +15,9 @@ int baz() {
 }
 
 int main() {
+    char c = -1;
+    char c = 1;
+    signed char c = -1;
     foo(bar(), baz());
     return 0;
 }
